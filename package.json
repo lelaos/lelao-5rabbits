@@ -1,0 +1,28 @@
+{
+  "name": "lelao-5rabbits",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently --kill-others \"npm start\" \"webpack --config webpack/webpack.config.js --watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelaos/lelao-5rabbits.git"
+  },
+  "author": "Rodrigo Díaz <rdiazv89@gmail.com> (http://www.rdiaz.cl)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lelaos/lelao-5rabbits/issues"
+  },
+  "homepage": "https://github.com/lelaos/lelao-5rabbits#readme",
+  "dependencies": {
+    "concurrently": "^3.1.0",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.2.1"
+  }
+}
