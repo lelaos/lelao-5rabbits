@@ -20,8 +20,14 @@
   "dependencies": {
     "concurrently": "^3.1.0",
     "express": "^4.14.1",
+    "fs-extra": "^2.0.0",
+    "lelao-core": "file:../lelao-core",
+    "lelao-plugin-url": "file:../lelao-plugin-url",
+    "parameterize": "^0.0.7",
+    "phantom": "^4.0.0",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "sharp": "^0.17.1"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
